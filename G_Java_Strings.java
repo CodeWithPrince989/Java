@@ -10,5 +10,16 @@ public class G_Java_Strings {
         String firstName = "Prince";
         String lastName = "Singh";
         System.out.println(firstName + " " + lastName);
+
+        String[] cars = {
+            "Volvo",
+            "BMW",
+            "Ford",
+            "Mazda"
+        };
+
+        for(String car : cars) {
+            System.out.println(car);
+        }
     }
 }

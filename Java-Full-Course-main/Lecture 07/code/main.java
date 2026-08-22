@@ -59,25 +59,39 @@ public class main {
         //     System.out.println("Enter Wrong Number");
         // }
 
-        // Answer 6
-        System.out.println("Enter Your Marks: ");
-        int marks = scanner.nextInt();
-        if(marks>=90){
-            System.out.println("Grade A");
-        }
-        else if(marks>=75){
-            System.out.println("Grade B");
-        }
-        else if(marks>=60){
-            System.out.println("Grade C");
-        }
-        else if(marks>=40){
-            System.out.println("Grade D");
-        }
-        else if(marks<40){
-            System.out.println("Fail");
-        }
 
+        // Answer 6
+        // System.out.println("Enter Your Marks: ");
+        // int marks = scanner.nextInt();
+        // if(marks>=90){
+        //     System.out.println("Grade A");
+        // }
+        // else if(marks>=75){
+        //     System.out.println("Grade B");
+        // }
+        // else if(marks>=60){
+        //     System.out.println("Grade C");
+        // }
+        // else if(marks>=40){
+        //     System.out.println("Grade D");
+        // }
+        // else if(marks<40){
+        //     System.out.println("Fail");
+        // }
+
+
+        // Answer 7
+        System.out.println("Enter 3 Numbers to get greatest: ");
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+        if(a>b && a>c){
+            System.out.println(a + " is Greater");  
+        }else if(b>c && b>a){
+            System.out.println(b + " is Greater");
+        }else{
+            System.out.println(c + " is Greater");
+        }
         scanner.close(); 
 
     }

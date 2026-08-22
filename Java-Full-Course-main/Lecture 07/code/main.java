@@ -81,17 +81,89 @@ public class main {
 
 
         // Answer 7
-        System.out.println("Enter 3 Numbers to get greatest: ");
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int c = scanner.nextInt();
-        if(a>b && a>c){
-            System.out.println(a + " is Greater");  
-        }else if(b>c && b>a){
-            System.out.println(b + " is Greater");
-        }else{
-            System.out.println(c + " is Greater");
-        }
+        // System.out.println("Enter 3 Numbers to get greatest: ");
+        // int a = scanner.nextInt();
+        // int b = scanner.nextInt();
+        // int c = scanner.nextInt();
+        // if(a>b && a>c){
+        //     System.out.println(a + " is Greater");  
+        // }else if(b>c && b>a){
+        //     System.out.println(b + " is Greater");
+        // }else{
+        //     System.out.println(c + " is Greater");
+        // }
+
+
+        // Answer 8
+        // System.out.println("Enter a Number: ");
+        // int num = scanner.nextInt();
+        // if(num==0){
+            //     System.out.println("Number is Zero");
+            // }else if(num<0){
+                //     System.out.println("Number is Negative");
+                // }else{
+                    //     System.out.println("Number is Positive");
+                    // }
+                    
+                    
+                    // Answer 9 
+                    // System.out.println("Enter a Number Betwwen 1 to 7:");
+                    // int num = scanner.nextInt();
+                    // switch (num) {
+                    //     case 1:
+                    //         System.out.println("Monday");
+                    //         break;
+                    //     case 2:
+                    //         System.out.println("Tuesday");
+                    //         break;
+                    //     case 3:
+                    //         System.out.println("Wednesday");
+                    //         break;
+                    //     case 4:
+                    //         System.out.println("Thursday");
+                    //         break;
+                    //     case 5:
+                    //         System.out.println("Friday");
+                    //         break;
+                    //     case 6:
+                    //         System.out.println("Saturday");
+                    //         break;
+                    //     case 7:
+                    //         System.out.println("Sunday");
+                    //         break;
+                    //     default:
+                    //         System.out.println("Invalid Number");
+                    //         break;
+                    // }
+
+
+                    // Answer 10
+                   System.out.println("Enter 2 Numbers:");
+                    int num = scanner.nextInt();
+                    int num2 = scanner.nextInt();
+
+                    System.out.println("Enter Operation to perform(+, -, *, /, %): ");
+                    String operation = scanner.next();
+
+                        if (operation.equals("+")) {
+                            System.out.println(num + num2);
+                        } 
+                        
+                        else if (operation.equals("-")) {
+                            System.out.println(num - num2);
+                        }
+                        else if (operation.equals("*")) {
+                            System.out.println(num * num2);
+                        }
+                        else if (operation.equals("/")) {
+                            System.out.println(num / num2);
+                        }
+                        else if (operation.equals("%")) {
+                            System.out.println(num % num2);
+                        }else {
+                            System.out.println("Invalid or unhandled operation!");
+                        }
+        
         scanner.close(); 
 
     }

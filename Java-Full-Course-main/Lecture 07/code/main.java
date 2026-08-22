@@ -46,17 +46,36 @@ public class main {
 
 
         // Answer of Question 5
-        System.out.println("Enter Temperature in Your City");
-        int temp = scanner.nextInt();
+        // System.out.println("Enter Temperature in Your City");
+        // int temp = scanner.nextInt();
 
-        if(temp>=25){
-            System.out.println("Hot");
-        }else if(temp<10){
-            System.out.println("Very Cold");
-        }else if(temp>=10 && temp<25 ){
-            System.out.println("Moderate Temperature");
-        }else{
-            System.out.println("Enter Wrong Number");
+        // if(temp>=25){
+        //     System.out.println("Hot");
+        // }else if(temp<10){
+        //     System.out.println("Very Cold");
+        // }else if(temp>=10 && temp<25 ){
+        //     System.out.println("Moderate Temperature");
+        // }else{
+        //     System.out.println("Enter Wrong Number");
+        // }
+
+        // Answer 6
+        System.out.println("Enter Your Marks: ");
+        int marks = scanner.nextInt();
+        if(marks>=90){
+            System.out.println("Grade A");
+        }
+        else if(marks>=75){
+            System.out.println("Grade B");
+        }
+        else if(marks>=60){
+            System.out.println("Grade C");
+        }
+        else if(marks>=40){
+            System.out.println("Grade D");
+        }
+        else if(marks<40){
+            System.out.println("Fail");
         }
 
         scanner.close(); 

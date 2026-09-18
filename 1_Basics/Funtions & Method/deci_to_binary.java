@@ -20,7 +20,4 @@ public class deci_to_binary {
         
         
     }
-
-
-    
 }

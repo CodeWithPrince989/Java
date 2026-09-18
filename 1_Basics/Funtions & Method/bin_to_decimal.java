@@ -18,6 +18,4 @@ public class bin_to_decimal {
     public static void main(String args[]) {
         bintodeci(111);
     }
-
-    
 }
